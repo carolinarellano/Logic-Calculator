@@ -59,8 +59,6 @@ def checkSyntax(proposition):
     return errorList['0']
 
 
-
-
 def getPrimitives(proposition, columns):
     primitives = ['p', 'q', 'r', 't', 'c']
 
@@ -69,14 +67,11 @@ def getPrimitives(proposition, columns):
             columns.append(primitive)
 
 
-
 def negatePrimitives(proposition, columns):
     for i, char in enumerate(proposition):
         if char == '~':
             negative = f'~{proposition[i + 1]}'
             columns.append(negative)
-
-
 
 
 def getOperations(proposition, columns):
