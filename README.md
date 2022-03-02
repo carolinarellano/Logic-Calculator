@@ -10,3 +10,5 @@ Specifications:
   - Tautology and Contradiction are available too
   
 The program works in Spanish
+
+Authors: Luis Acosta, Carolina Arellano & Arlyn Medina
